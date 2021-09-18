@@ -28,7 +28,7 @@ recognition.onresult = function(event) {
 function speak(){
     var synth = window.speechSynthesis;
 
-    speak_data = "Taking you selfie in 5 seconds"
+    speak_data = "Taking you selfie in 5 seconds. Say cheese"
 
     var utterThis = new SpeechSynthesisUtterance(speak_data);
 
